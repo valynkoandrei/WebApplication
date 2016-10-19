@@ -12,7 +12,7 @@
 <body>
 <div>Hello, ${userName}</div>
 <form name="form" action="servlet" method="POST">
-    <input type="hidden" name="page" value="/WEB-INF/jsp/main.jsp" />
+    <input type="hidden" name="page" value="/main.jsp" />
     <input type="text" placeholder="Name" name="inputName"/>
     <input type="submit" name="showButton" class="input-button" value="Submit" />
 </form>
